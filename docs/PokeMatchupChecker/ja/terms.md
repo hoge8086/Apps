@@ -1,5 +1,7 @@
 ﻿---
+layout: default
 title: 利用規約
+lang: ja
 ---
 
 # 利用規約

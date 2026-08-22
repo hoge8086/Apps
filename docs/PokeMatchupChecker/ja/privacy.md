@@ -1,5 +1,7 @@
 ﻿---
+layout: default
 title: プライバシーポリシー
+lang: ja
 ---
 
 # プライバシーポリシー
@@ -54,4 +56,3 @@ Kenta Hayakawa（以下「運営者」といいます。）は、スマートフ
 - X: [https://x.com/tcgsim](https://x.com/tcgsim)
 
 制定日：2026年8月22日
-

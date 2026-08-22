@@ -1,5 +1,7 @@
 ﻿---
+layout: default
 title: Open Source Licenses
+lang: en
 ---
 
 # Open Source Licenses

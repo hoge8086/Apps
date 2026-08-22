@@ -1,5 +1,7 @@
 ﻿---
+layout: default
 title: Privacy Policy
+lang: en
 ---
 
 # Privacy Policy
@@ -54,4 +56,3 @@ The Operator may revise this Privacy Policy in response to changes in applicable
 - X: [https://x.com/tcgsim](https://x.com/tcgsim)
 
 Effective date: August 22, 2026
-

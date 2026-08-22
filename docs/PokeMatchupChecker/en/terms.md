@@ -1,5 +1,7 @@
 ﻿---
+layout: default
 title: Terms of Use
+lang: en
 ---
 
 # Terms of Use
@@ -86,4 +88,3 @@ These Terms are governed by the laws of Japan. Unless otherwise required by appl
 Effective date: August 21, 2026
 
 Last updated: August 22, 2026
-
