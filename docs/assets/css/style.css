@@ -194,10 +194,20 @@ tr:last-child td { border-bottom: 0; }
 
 .table-usage table {
   width: 100%;
-  table-layout: auto;
   font-size: 0.9rem;
+
+  display: grid;
+  grid-template-columns: max-content fit-content(25%) 1fr;
 }
 
+/* table内部をGridの列に参加させる */
+.table-usage thead,
+.table-usage tbody,
+.table-usage tr {
+  display: contents;
+}
+
+/* ヘッダは中央 */
 .table-usage th {
   text-align: center;
 }
@@ -205,21 +215,20 @@ tr:last-child td { border-bottom: 0; }
 /* 1列目：内容に必要な幅だけ、折り返さない */
 .table-usage th:nth-child(1),
 .table-usage td:nth-child(1) {
-  width: 1%;
   white-space: nowrap;
 }
 
-/* 2列目：なるべく狭く、最大25%程度 */
+/* 2列目：内容が短ければ狭く、長くても最大25% */
 .table-usage th:nth-child(2),
 .table-usage td:nth-child(2) {
-  width: 1%;
-  max-width: 25%;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 /* 3列目：残り全部 */
 .table-usage th:nth-child(3),
 .table-usage td:nth-child(3) {
-  width: auto;
+  min-width: 0;
 }
 
 @media (max-width: 640px) {
