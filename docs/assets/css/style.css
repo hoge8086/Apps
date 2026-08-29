@@ -184,9 +184,10 @@ thead th {
 }
 
 tbody tr > :first-child {
-  width: 28%;
+  width: 1%;
   background: var(--surface-subtle);
   font-weight: 700;
+  text-align: right;
   white-space: nowrap;
 }
 
